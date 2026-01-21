@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>College Admission Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f8ff;
+            text-align: center;
+            margin-top: 40px;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px gray;
+        }
+        input, select {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+        button {
+            background-color: #0078d7;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>College Admission Form</h2>
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" placeholder="Enter your name" required><br>
+
+        <label>Email:</label><br>
+        <input type="email" placeholder="Enter your email" required><br>
+
+        <label>Department:</label><br>
+        <select required>
+            <option value="">Select Department</option>
+            <option>Computer Science</option>
+            <option>Electronics</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
